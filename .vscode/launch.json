@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "debug: node",
+      "program": "${file}",
+      "skipFiles": ["<node_internals>/**"],
+      "runtimeArgs": ["--experimental-modules"], // Para soportar ESM si es necesario
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  ]
+}

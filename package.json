@@ -1,0 +1,26 @@
+{
+  "name": "workshop-javascript-es6",
+  "version": "1.0.0",
+  "description": "Workshop de JavaScript ES6+ ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "workshop",
+    "sesion",
+    "frontend"
+  ],
+  "author": "Skills4Up",
+  "license": "CC-BY-NC-4.0",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": true
+}
