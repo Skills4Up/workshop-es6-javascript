@@ -1,255 +1,101 @@
-# Workshop ES6+ Javascript
+# Workshop: JavaScript y ECMAScript (ES5, ES6+ y Más Allá)
 
-Un workshop de aprendizaje intensiva para dominar las características modernas de JavaScript, diseñada con metodologías de aprendizaje activo.
+Aprende a dominar JavaScript moderno desde los fundamentos de ES5 hasta las últimas novedades de ECMAScript. Este workshop está diseñado para que adquieras habilidades sólidas y actualizadas en el desarrollo frontend, combinando teoría, ejemplos prácticos, buenas prácticas y ejercicios guiados, siguiendo una estructura didáctica y progresiva.
 
-## 🎯 Objetivos de aprendizaje
+---
 
-Al finalizar este taller, podrás:
+## 🎯 Objetivos de aprendizaje y metodología
 
-- **Aplicar** con confianza la sintaxis moderna de ES6+ en proyectos reales
-- **Transformar** código legacy de ES5 a JavaScript moderno
-- **Implementar** patrones asíncronos avanzados con Promises y async/await
-- **Construir** arquitecturas escalables usando clases y módulos ES
-- **Optimizar** el procesamiento de datos con métodos funcionales de arrays
+Al finalizar este workshop, serás capaz de:
 
-## 📚 Estructura del Repositorio (Learn-by-Doing)
+- **Comprender** la evolución de JavaScript y las diferencias clave entre ES5, ES6 y versiones posteriores.
+- **Aplicar** las nuevas características de ECMAScript en proyectos reales.
+- **Utilizar** sintaxis moderna para escribir código más limpio, eficiente y mantenible.
+- **Crear** y consumir APIs REST falsas para simular backends en desarrollo frontend.
+- **Adoptar** buenas prácticas y patrones profesionales en JavaScript.
 
-## 📄 Archivos principales
+### Metodología de aprendizaje
 
-- [README.md](README.md) - Información general e instrucciones
-- [SETUP.md](SETUP.md) - Instrucciones detalladas de instalación
-- [LEARNING_PATH.md](LEARNING_PATH.md) - Ruta de aprendizaje y objetivos
+- **Explicaciones visuales y ejemplos claros:** Cada concepto se ilustra con código y casos de uso.
+- **Demostraciones prácticas:** Ejemplos reales explicados paso a paso.
+- **Ejercicios interactivos:** Práctica guiada para afianzar los conceptos.
+- **Retos de aplicación:** Problemas para resolver de forma autónoma.
+- **Proyecto integrador:** Casos de uso reales y ejercicios progresivos.
 
-## 📚 Documentación y guías
+---
 
-| Archivo                                       | Descripción                                |
-| --------------------------------------------- | ------------------------------------------ |
-| [cheatsheet.md](docs/cheatsheet.md)           | Cheatsheet completa de ES6+                |
-| [best-practices.md](docs/best-practices.md)   | Mejores prácticas y patrones               |
-| [knowledge-check.md](docs/knowledge-check.md) | Preguntas de verificación de conocimientos |
-| [resources.md](docs/resources.md)             | Enlaces a recursos adicionales             |
+## 🗺️ Mapa de progresión de conocimientos
 
-## 🧪 Ejercicios de aprendizaje
+### Bloque 1: Fundamentos de JavaScript y ES5
 
-### Bloque 1: Sintaxis moderna
+- [¿Qué es JavaScript y cómo funciona?](1-js-basico/1-1-que-es-js.md)
+- [Sintaxis básica, variables y tipos de datos](1-js-basico/1-2-sintaxis-basica.md)
+- [Funciones, scope y closures](1-js-basico/1-3-funciones-scope.md)
+- [Objetos y arrays](1-js-basico/1-4-objetos-arrays.md)
+- [Buenas prácticas y errores comunes](1-js-basico/1-5-buenas-practicas.md)
 
-<details>
-<summary><strong>1.1 Conceptos básicos</strong></summary>
+### Bloque 2: Novedades de ES6 (ECMAScript 2015)
 
-- [README.md](exercises/1-syntax/1.1-basics/README.md) - Instrucciones con contexto real
-- [start.js](exercises/1-syntax/1.1-basics/start.js) - Código inicial con comentarios guía
-- [challenges.js](exercises/1-syntax/1.1-basics/challenges.js) - Retos adicionales
-- [HINTS.md](exercises/1-syntax/1.1-basics/HINTS.md) - Guía estratégica de solución
-- [test.js](exercises/1-syntax/1.1-basics/test.js) - Tests para validación automática
+- [Let, const y diferencias con var](2-es6/2-1-let-const.md)
+- [Arrow functions y this](2-es6/2-2-arrow-functions.md)
+- [Desestructuración de objetos y arrays](2-es6/2-3-desestructuracion.md)
+- [Template literals](2-es6/2-4-template-literals.md)
+- [Clases y herencia](2-es6/2-5-clases-herencia.md)
+- [Módulos (import/export)](2-es6/2-6-modulos.md)
+- [Promesas y manejo asíncrono](2-es6/2-7-promesas.md)
+- [Parámetros por defecto y rest/spread](2-es6/2-8-rest-spread.md)
+- [Map, Set y nuevas APIs de colecciones](2-es6/2-9-map-set.md)
+- [Buenas prácticas ES6](2-es6/2-10-buenas-practicas-es6.md)
 
-</details>
+### Bloque 3: ECMAScript Avanzado (ES7+ hasta la última versión)
 
-<details>
-<summary><strong>1.2 Destructuring</strong></summary>
+- [Novedades de ES7 a ES2024](3-es-avanzado/3-1-novedades.md)
+- [Async/Await y manejo avanzado de asincronía](3-es-avanzado/3-2-async-await.md)
+- [Operadores avanzados (?. ??, etc.)](3-es-avanzado/3-3-operadores-avanzados.md)
+- [Métodos y APIs modernas de arrays y objetos](3-es-avanzado/3-4-metodos-modernos.md)
+- [Internacionalización y utilidades globales](3-es-avanzado/3-5-internacionalizacion.md)
+- [Buenas prácticas y patrones modernos](3-es-avanzado/3-6-buenas-practicas-modernas.md)
 
-- [README.md](exercises/1-syntax/1.2-destructuring/README.md) - Instrucciones con casos de uso real
-- [start.js](exercises/1-syntax/1.2-destructuring/start.js) - Esqueleto con comentarios educativos
-- [challenges.js](exercises/1-syntax/1.2-destructuring/challenges.js) - Retos incrementales
-- [HINTS.md](exercises/1-syntax/1.2-destructuring/HINTS.md) - Guía estratégica de solución
-- [test.js](exercises/1-syntax/1.2-destructuring/test.js) - Tests con feedback formativo
+---
 
-</details>
+## 📚 Rutas de aprendizaje y práctica guiada
 
-<details>
-<summary><strong>1.3 Mini-proyecto</strong></summary>
+La ruta de aprendizaje está organizada en bloques temáticos.  
+Cada bloque cuenta con un README que explica el enfoque, la estructura y enlaza a todos los conceptos y ejercicios de ese bloque. Explora cada bloque para avanzar de lo fundamental a lo aplicado:
 
-- [README.md](exercises/1-syntax/1.3-mini-project/README.md) - Proyecto contextualizado
-- [start.js](exercises/1-syntax/1.3-mini-project/start.js) - Estructura base del proyecto
-- [challenges.js](exercises/1-syntax/1.3-mini-project/challenges.js) - Retos avanzados
-- [HINTS.md](exercises/1-syntax/1.3-mini-project/HINTS.md) - Pistas escalonadas y estrategias
-- [test.js](exercises/1-syntax/1.3-mini-project/test.js) - Tests con criterios de éxito
+- **[Fundamentos de JavaScript y ES5](1-js-basico/README.md):**  
+  Aprende la sintaxis, el funcionamiento y las bases del lenguaje.
 
-</details>
+- **[Novedades de ES6 (ECMAScript 2015)](2-es6/README.md):**  
+  Domina las nuevas características que cambiaron la forma de escribir JavaScript.
 
-### Bloque 2: Arrays y asincronía
+- **[ECMAScript avanzado (ES7+)](3-es-avanzado/README.md):**  
+  Mantente actualizado con las últimas mejoras y patrones modernos.
 
-<details>
-<summary><strong>2.1 Arrays</strong></summary>
+En cada bloque encontrarás:
 
-- [README.md](exercises/2-arrays-async/2.1-arrays/README.md) - Casos de uso prácticos
-- [start.js](exercises/2-arrays-async/2.1-arrays/start.js) - Ejercicios graduales
-- [challenges.js](exercises/2-arrays-async/2.1-arrays/challenges.js) - Retos de optimización
-- [HINTS.md](exercises/2-arrays-async/2.1-arrays/HINTS.md) - Guía estratégica de solución
-- [test.js](exercises/2-arrays-async/2.1-arrays/test.js) - Validación automática
+- Explicaciones claras y orientadas a resultados.
+- Ejercicios prácticos y retos para afianzar los conceptos.
+- Buenas prácticas para escribir código limpio y eficiente.
 
-</details>
-
-<details>
-<summary><strong>2.2 Async</strong></summary>
-
-- [README.md](exercises/2-arrays-async/2.2-async/README.md) - Contexto de aplicaciones reales
-- [start.js](exercises/2-arrays-async/2.2-async/start.js) - Problemas típicos de async
-- [challenges.js](exercises/2-arrays-async/2.2-async/challenges.js) - Casos avanzados de asincronía
-- [HINTS.md](exercises/2-arrays-async/2.2-async/HINTS.md) - Guía estratégica de solución
-- [test.js](exercises/2-arrays-async/2.2-async/test.js) - Tests para cada caso de uso
-
-</details>
-
-<details>
-<summary><strong>2.3 ES2020+</strong></summary>
-
-- [README.md](exercises/2-arrays-async/2.3-es2020plus/README.md) - Características modernas
-- [start.js](exercises/2-arrays-async/2.3-es2020plus/start.js) - Ejercicios prácticos
-- [challenges.js](exercises/2-arrays-async/2.3-es2020plus/challenges.js) - Aplicaciones avanzadas
-- [HINTS.md](exercises/2-arrays-async/2.3-es2020plus/HINTS.md) - Guía estratégica de solución
-- [test.js](exercises/2-arrays-async/2.3-es2020plus/test.js) - Validación con feedback
-
-</details>
-
-### Bloque 3: Arquitectura moderna
-
-<details>
-<summary><strong>3.1 Clases y módulos</strong></summary>
-
-- [README.md](exercises/3-architecture/3.1-classes-modules/README.md) - Escenarios reales
-- [start.js](exercises/3-architecture/3.1-classes-modules/start.js) - Estructura para implementar
-- [challenges.js](exercises/3-architecture/3.1-classes-modules/challenges.js) - Implementaciones avanzadas
-- [HINTS.md](exercises/3-architecture/3.1-classes-modules/HINTS.md) - Guía estratégica de solución
-- [test.js](exercises/3-architecture/3.1-classes-modules/test.js) - Tests automatizados
-
-</details>
-
-<details>
-<summary><strong>3.2 Patrones</strong></summary>
-
-- [README.md](exercises/3-architecture/3.2-patterns/README.md) - Patrones modernos
-- [start.js](exercises/3-architecture/3.2-patterns/start.js) - Implementaciones parciales
-- [challenges.js](exercises/3-architecture/3.2-patterns/challenges.js) - Variaciones avanzadas
-- [HINTS.md](exercises/3-architecture/3.2-patterns/HINTS.md) - Guía estratégica de solución
-- [test.js](exercises/3-architecture/3.2-patterns/test.js) - Validación de implementaciones
-
-</details>
-
-<details>
-<summary><strong>3.3 Proyecto final</strong></summary>
-
-- [README.md](exercises/3-architecture/3.3-final-project/README.md) - Proyecto integrador
-- [start.js](exercises/3-architecture/3.3-final-project/start.js) - Estructura base
-- [challenges.js](exercises/3-architecture/3.3-final-project/challenges.js) - Extensiones del proyecto
-- [HINTS.md](exercises/3-architecture/3.3-final-project/HINTS.md) - Guía estratégica por etapas
-- [test.js](exercises/3-architecture/3.3-final-project/test.js) - Suite completa de pruebas
-
-</details>
-
-## 🏆 Retos adicionales
-
-## 🧰 Recursos adicionales
-
-## 🔄 Metodología de aprendizaje
-
-Este repositorio implementa un enfoque de aprendizaje activo inspirado en las mejores prácticas de andragogía y aprendizaje online, combinando **práctica incremental**, **microaprendizaje estructurado** y **contexto aplicado a escenarios reales**, todo basado en aprendizajes de grandes plataformas como: DataCamp, Pluralsight y Coursera. Cada ejercicio está diseñado para ofrecer:
-
-- **Progresión gradual** en dificultad con bloques conceptuales claramente definidos.
-- **Feedback inmediato** a través de pruebas automatizadas y sugerencias progresivas.
-- **Proyectos prácticos** y escenarios laborales reales que refuerzan lo aprendido y explican el "por qué" detrás de cada patrón.
-- **Evaluación de competencias** al final de cada sección para consolidar conocimientos.
-
-## 📋 Cobertura de Características ES6+
-
-Este workshop abarca exhaustivamente las siguientes áreas de JavaScript moderno:
-
-### 🧩 Bloque 1: Sintaxis Moderna
-
-- **Variables y Scope**: `let`, `const`, block scoping, TDZ
-- **Arrow Functions**: sintaxis compacta, lexical `this`
-- **Template Literals**: strings multilínea, interpolación
-- **Valores por Defecto**: parámetros con valores predefinidos
-- **Destructuring**: objetos, arrays, anidado, rest/spread
-- **Spread/Rest Operators**: en arrays, objetos, argumentos
-- **Enhanced Object Literals**: propiedades computadas, métodos
-
-### 🔄 Bloque 2: Arrays y Asincronía
-
-- **Métodos Funcionales**: `map`, `filter`, `reduce`, `find`, etc.
-- **Iteradores**: protocolos de iteración, `for...of`
-- **Promises**: creación, encadenamiento, error handling
-- **Async/Await**: sintaxis declarativa para asincronía
-- **Fetch API**: peticiones HTTP modernas
-- **ES2020+**: optional chaining, nullish coalescing, BigInt
-
-### 🔧 Bloque 3: Arquitectura Moderna
-
-- **Clases**: sintaxis, herencia, métodos estáticos
-- **Módulos ES**: imports/exports, módulos dinámicos
-- **Símbolos y WeakMap**: propiedades privadas, metaprogramación
-- **Proxies**: interceptores, validación, observables
-- **Patrones de Diseño**: factory, singleton, observer modernos
-
-## 🚀 Instrucciones de instalación
-
-```bash
-# Clonar el repositorio
-# Instalar dependencias
-# Posiconarse en la carpeta
-npm install
-
-# Ejecutar tests
-npm test
-```
-
-## 🧩 Cómo aprovechar al máximo el Workshop
-
-### Durante el Workshop
-
-1. **Estructura "Concepto → Ejemplo → Práctica → Desafío"**
-   - Cada tema comienza con una breve explicación
-   - Seguida de ejemplos concretos
-   - Luego ejercicios guiados
-   - Finalmente desafíos para aplicar lo aprendido
-
-2. **Sistema de validación progresiva**
-   - Ejecuta `npm test [nombre-modulo]` para validar tu solución
-   - Recibe feedback específico para cada error
-   - Desbloquea pistas adicionales después de varios intentos
-
-3. **Participación colaborativa**
-   - Código compartido a través de GitHub durante la workshop
-   - Soluciones revisadas en grupo en momentos específicos
-   - Breakout rooms en MS Teams para trabajo en equipo
-
-### Después de la workshop
-
-- Acceso permanente a todas las soluciones comentadas
-- Desafíos adicionales para seguir practicando
-- Recursos para profundizar en cada tema
+---
 
 ## 📋 Requisitos previos
 
-- Node.js v18+ instalado
-- Conocimientos básicos de JavaScript
-- Editor de código VSCode (recomendado)
-- Git instalado
+- Conocimientos básicos de programación.
+- Node.js y npm instalados.
+- Editor de código (Visual Studio Code recomendado).
 
-## 🧩 Cómo aprovechar al máximo la workshop
+---
 
-### Durante la workshop
+## 🌐 Recursos recomendados
 
-1. **Estructura "Concepto → Ejemplo → Práctica → Desafío"**
-   - Cada tema comienza con una breve explicación
-   - Seguida de ejemplos concretos
-   - Luego ejercicios guiados
-   - Finalmente desafíos para aplicar lo aprendido
+- [Documentación oficial de JavaScript (MDN)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+- [ECMAScript Language Specification](https://tc39.es/ecma262/)
+- [JSON Server](https://github.com/typicode/json-server)
+- [Postman](https://www.postman.com/)
 
-2. **Sistema de validación progresiva**
-   - Ejecuta `npm test` para validar tu solución
-   - Recibe feedback específico para cada error
-   - Desbloquea pistas adicionales después de varios intentos
-
-3. **Participación colaborativa**
-   - Código compartido a través de GitHub durante la workshop
-   - Soluciones revisadas en grupo en momentos específicos
-   - Breakout rooms en MS Teams para trabajo en equipo
-
-### Después del workshop
-
-- Acceso permanente a todas las soluciones comentadas
-- Desafíos adicionales para seguir practicando
-- Recursos para profundizar en cada tema
+---
 
 ## 🤝 Contribuciones
 
@@ -268,6 +114,8 @@ Si eres parte del equipo de Skills4Up y deseas proponer una mejora o corrección
 
 Todas las contribuciones internas incluirán los créditos correspondientes.
 
+---
+
 ## 📜 Licencia
 
 Copyright (c) 2024 Skills4Up
@@ -277,3 +125,15 @@ Todos los derechos reservados.
 Este material es propiedad exclusiva de Skills4Up. Queda prohibida su reproducción, distribución, comunicación pública o transformación, total o parcial, sin la autorización expresa y por escrito de Skills4Up. El uso de este material está restringido únicamente a fines internos de Skills4Up.
 
 Para autorizaciones especiales, contacta a [info@skills4up.com](mailto:info@skills4up.com).
+
+---
+
+## 🧩 ¿Cómo usar este archivo como contexto para otros temas?
+
+- **Estructura:** Cada sección y ejemplo muestra el código relevante y el contexto necesario para comprenderlo.
+- **Progresión:** Los contenidos avanzan de lo más simple a situaciones más complejas y frecuentes en el desarrollo profesional.
+- **Aplicación:** Usa este formato para enseñar otros temas de JavaScript moderno (testing, integración, frameworks, etc.), mostrando siempre ejemplos claros, incrementando la dificultad y explicando el contexto de uso.
+- **Recomendación:** Para cada nuevo tema, inicia con una breve definición, luego presenta ejemplos básicos y avanza hacia casos de uso más complejos o frecuentes en el desarrollo profesional.
+- **Importante:** Solo utiliza conceptos del tema que se está enseñando. Evita incluir conceptos más avanzados o que aún no se hayan visto, para no generar confusión y asegurar el aprendizaje progresivo.
+
+---
